@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    color: #F2CE5C;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Train One', cursive;
+}
+.logo{
+    font-family: 'Train One', cursive;
+    font-size: 2rem;
+    margin-left: 10%;
+}
+.nav-bg{
+    background: rgb(45, 48, 70);
+    color: #F2CE5C;
+    padding: 1rem 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    margin-right: 8%;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item a{
+    color: #F2CE5C;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+.header{
+    height: 90vh;
+    background-image: linear-gradient(rgba(45, 48, 70,0.4),rgba(45, 48, 70,0.4)),url(assets/1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icon{
+    display: flex;
+    flex-direction: column;
+}
+.social-icon span{
+    width: 4rem;
+    height: 1.5rem;
+    background: rgba(242, 206, 92,1);
+    color: #000;
+    margin-bottom: 1.2rem;
+    padding: 0.9rem 3rem;
+}
+.jumbotron{
+    margin-right: 8%;
+    width: 30%;
+}
+.jumbotron h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.lead{
+    font-size: 0.95rem;
+    text-align: justify;
+}
