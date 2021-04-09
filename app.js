@@ -1,6 +1,7 @@
 const nav = document.querySelector('.nav');
 const navBg = document.querySelector('.nav-bg');
 const gallery = document.querySelector('.gallery');
+const spinner = document.querySelector('.spinner');
 
 /////////// nav list hover effect //////////////
 
@@ -24,9 +25,9 @@ nav.addEventListener('mouseout', HandleHoverOnNav.bind(1));
 
 /////////////// Pre-loader /////////
 
-// window.addEventListener('load', e => {
-//   spinner.style.display = 'none';
-// });
+window.addEventListener('load', e => {
+  spinner.style.display = 'none';
+});
 
 ///////////////// sticky navbar ///////////
 
