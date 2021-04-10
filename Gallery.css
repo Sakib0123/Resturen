@@ -73,11 +73,17 @@ nav {
   display: flex;
   list-style-type: none;
 }
+
+.nav-active {
+  font-weight: 700;
+}
+
 .nav-item a {
   color: #f2ce5c;
   text-decoration: none;
   margin-left: 3rem;
 }
+
 .head {
   background: #123f44;
   padding: 3rem 5rem;
