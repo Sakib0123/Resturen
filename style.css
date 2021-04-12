@@ -66,6 +66,7 @@ nav {
 }
 .nav-active {
   font-weight: 700;
+  font-size: 1.1rem;
 }
 .nav-item a {
   color: #f2ce5c;
@@ -96,13 +97,21 @@ nav {
   margin-bottom: 1.2rem;
   padding: 0.9rem 3rem;
 }
-.jumbotron {
-  margin-right: 8%;
-  width: 30%;
-}
 .jumbotron h2 {
   text-align: center;
   font-size: 2rem;
+}
+.jumbotron {
+  width: 30%;
+  animation: jumbotron 1.3s ease forwards;
+}
+@keyframes jumbotron {
+  0% {
+    margin-right: -30%;
+  }
+  100% {
+    margin-right: 8%;
+  }
 }
 .lead {
   font-size: 0.95rem;

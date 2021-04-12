@@ -76,6 +76,7 @@ nav {
 
 .nav-active {
   font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .nav-item a {
@@ -93,9 +94,18 @@ nav {
 .textbox {
   width: 400px;
   height: 200px;
+  animation: textbox 1.3s ease forwards;
   margin-top: 5rem;
-  margin-right: 5rem;
 }
+@keyframes textbox {
+  0% {
+    margin-right: 20rem;
+  }
+  100% {
+    margin-right: 5rem;
+  }
+}
+
 .image img {
   width: 500px;
   margin-top: 2rem;
